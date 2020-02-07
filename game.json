@@ -1,0 +1,125 @@
+{
+	"EARTH": {
+		"name": "Earth",
+		"desc": "The birthplace of the human race. Your ship, a science vessel that has just returned from a survey mission of the sun and mercury, is in orbit around earth. The surface of earth, however, is blackened with clounds of ash, and where the orbital defenses, shipyards, and starbases should be is only a field of debris. Where will you go? you can plot a course to Luna, Mars, and Ceres. to indicte a destination, type exit followed by a number corresponding with its sequence in the given destinations. For example, if you wish to go Mars, type exit2",
+		"exits": [
+			{
+				"exit": "EXIT1",
+				"target": "LUNA"
+			}
+			,{
+				"exit": "EXIT2",
+				"target": "MARS"
+			}
+			,{
+				"exit": "EXIT3",
+				"target": "CERES"
+			}
+		]
+	}
+	,"LUNA": {
+		"name": "Luna",
+		"desc": "Your ship enters a high orbit above earth's single moon. on the viewscreen is the charred lunar surface, covered in the debris of cities that were built into its surface. You can go to Earth, Mars, or Ceres.",
+		"exits": [
+			{
+				"exit": "EXIT1",
+				"target": "EARTH"
+			}
+			,{
+				"exit": "EXIT2",
+				"target": "MARS"
+			}
+			,{
+				"exit": "EXIT3",
+				"target": "CERES"
+			}
+		]
+	}
+	,"MARS": {
+		"name": "Mars",
+		"desc": "Above Mars, the once mighty shipyards are nothing more than a sphere of debris around the red planet. Hulks of scorched warships drift among the wreckage. you can now go to to Ganymede or Earth.",
+		"exits": [
+			{
+				"exit": "EXIT1",
+				"target": "GANYMEDE"
+			}
+			,{
+				"exit": "EXIT2",
+				"target": "EARTH"
+			}
+		]
+	}
+	,"GANYMEDE": {
+		"name": "Ganymede",
+		"desc": "what was once a terraformed paradise, is now nothing more than a rock with a surface of glass from plasma bombardment. you can go to Ceres or Mars.",
+		"exits": [
+			{
+				"exit": "EXIT1",
+				"target": "CERES"
+			}
+			,{
+				"exit": "EXIT2",
+				"target": "MARS"
+			}
+		]
+	}
+	,"CERES": {
+		"name": "Ceres",
+		"desc": "The dwarf planet is blown to pieces. The remnants of the refineries are now cloud of seared metal alloys. Hundreds of wrecked ships are scattered within the debris, with a single, massive wreck at the center. The ship is unlike those around it. this one is bulbous, like a whale with hundred of protrusions acting as weapons hardpoints. Its hull is riddled with impacts from torpedoes, railgun and PDC rounds, and nuclear warheads. you may go to Saturn, the spatial anomaly near saturn, or Ganymede.",
+		"exits": [
+			{
+				"exit": "EXIT1",
+				"target": "SATURN"
+			}
+			,{
+				"exit": "EXIT2",
+				"target": "WORMHOLE"
+			}
+			,{
+				"exit": "EXIT3",
+				"target": "GANYMEDE"
+			}
+		]
+	}
+	,"SATURN": {
+		"name": "Saturn",
+		"desc": "Along with rock and ice, the rings of saturn now serve as a graveyard for thousands of corvettes, cruisers, destroyers, and battleships. you can go to the anomaly or Ceres",
+		"exits": [
+			{
+				"exit": "EXIT1",
+				"target": "WORMHOLE"
+			}
+			,{
+				"exit": "EXIT2",
+				"target": "CERES"
+			}
+		]
+	}
+	,"WORMHOLE": {
+		"name": "Wormhole",
+		"desc": "on your viewscreen, an enormous sphere warps the light from the stars and from Uranus. You can choose to enter the anomaly, procede further out into the sol system, or go back to saturn.",
+		"exits": [
+			{
+				"exit": "EXIT1",
+				"target": "UNKNOWN"
+			}
+			,{
+				"exit": "EXIT2",
+				"target": "CHARON"
+			}
+			,{
+				"exit": "EXIT3",
+				"target": "SATURN"
+			}
+		]
+	}
+	,"UNKNOWN": {
+		"name": "*Navigational Error*",
+		"desc": "you emerge on the other side of the wormhole, 3 AUs from a massive planet which your sensors tell you is 500 million kilometers in diameter. you realize that the planet is not a planet, but in fact a starbase constructed from the same metal alloy as the massive ship at Ceres that is lined with docking berths for starships all along its latitudinal and longitudinal lines. Sensors detect movement as 5 of those ships undock from the construct. The ship informs you of multiple target locks on your ship as they fire their plasma weapons. Just as easily as they wiped out humanity, the aliens reduce your ship to it component atoms as their fleet begins to assemble near a new wormhole."
+
+	}
+	,"CHARON": {
+		"name": "Charon",
+		"desc": "At the edge of the system, you arrive at Charon, the dwarf planet Pluto's only satelite. a sensor sweep of the surface reveals that there is a compound constructed from the same titanium alloy as your own ship. you dock with this base and greeted at the airlock by armed men with firearms pointed at you. after a second, they break into tears and pull you into an embrace. They explain how they had feared they were last humans in existance, that their science outpost had not been detected by alien invaders due to charon's distance from any notable bodies and being at an odd orbit with respect to the eclipitic. They invite you to join them, and to live out the rest of your existances together."
+	}
+}
